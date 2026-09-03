@@ -1,5 +1,18 @@
-# Welcome to GitHub Desktop!
+#include <stdio.h>
+#include <math.h>
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+int main() {
+    int a, b, c;
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+    printf("Enter a number: ");
+    scanf("%d", &a);
+
+    printf("Enter the other number: ");
+    scanf("%d", &b);
+
+    c = a + b;
+
+    printf("Lawandaar: %d\n", c);
+
+    return 0;
+}
